@@ -1,11 +1,17 @@
+import Banner from "./Component/Banner"
+import Footer from "./Component/Footer"
+import Navbar from "./Component/Navbar"
+import Products from "./Products/Products"
 
 function App() {
   
 
   return (
   <>
-    <h2>Allah</h2>
-    <button className="btn btn-secondary">Secondary</button>
+   <Navbar/>
+   <Banner/>
+   <Products/>
+   <Footer/>
   </>
   )
 }
