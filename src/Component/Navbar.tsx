@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className="bg-[#F1F5F9]">
+        <div className="bg-[#F1F5F9] sticky top-0">
 
         <div className="grid grid-cols-3 container mx-auto items-center py-3 px-4 gap-4 relative">
             <div className="block lg:hidden">

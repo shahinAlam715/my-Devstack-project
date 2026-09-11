@@ -1,7 +1,15 @@
 import { IoIosStar } from "react-icons/io";
 import reactimg from "../assets/react (2).png";
+import { use } from "react";
+import type { Iproducts } from "../type";
 
-const Products = () => {
+interface Ipromisedata {
+  Promisedata: Promise<Iproducts[]>
+}
+
+const Products = ({Promisedata}: Ipromisedata) => {
+  const info = use(Promisedata)
+  console.log(info);
   return (
     <>
       <div className="p-2">
