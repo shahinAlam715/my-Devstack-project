@@ -11,7 +11,7 @@ function App() {
    <Navbar/>
    <Banner/>
    <Products/>
-   {/* <Footer/> */}
+   <Footer/>
   </>
   )
 }
