@@ -4,20 +4,20 @@ import reactimg from "../assets/react (2).png";
 const Products = () => {
   return (
     <>
-      <div>
+      <div className="p-2">
         <div className="container mx-auto">
-          <h2 className="font-inter font-extrabold text-[36px] my-2">
+          <h2 className="font-inter font-extrabold text-center md:text-start md:text-[36px] my-2">
             Explore the
             <span className="text-[#DB2777]"> Technologies</span>
           </h2>
-          <p className="font-medium font-jakarta text-[16px] text-[#64748B] my-2">
+          <p className="font-medium font-jakarta text-center md:text-start md:text-[16px] text-[#64748B] my-2">
             Pick one technology per category to build your ideal stack.
           </p>
         </div>
 
-        <div className="grid grid-cols-12 container mx-auto mt-10 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 container mx-auto mt-10 gap-4">
           <div className="col-span-9">
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <div className="border-2 border-gray-200 shadow-2xl rounded-xl p-4 my-4">
                 <div className="flex justify-between">
                   <img src={reactimg} alt="reactimg" className="h-10 w-10" />
